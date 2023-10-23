@@ -1,0 +1,157 @@
+@media only screen and (min-width: 1081px) {
+    body {
+        background-image: url(../img/bg-pattern-top-desktop.svg), url(../img/bg-pattern-bottom-desktop.svg);
+    }
+
+    .global-container {
+        padding: 0 10rem;
+    }
+
+    /* ++++++++++++++ HEADER ++++++++++++++ */    
+    .header {
+        align-items: center;
+        display: flex;
+        margin: 0 0 5rem;
+    }
+    
+    h1 {
+        font-size: 4.8rem;
+        line-height: 5.2rem;
+        margin-left: 0rem;
+        margin-right: 10rem;
+        text-align: left;
+    }
+    
+    .header-text {
+        padding: 0;
+        width: 40%;
+    }
+    
+    .text-header {
+        line-height: 2.8rem;
+        margin: 2rem 2rem 0 0rem;
+        text-align: left;
+    }
+
+    /* ++++++++++++++ RATING ++++++++++++++ */    
+    .rating-container {
+        width: 60%;
+    }
+
+    .rating {
+        width: 75%;
+    }
+
+    .rating:nth-child(2) {
+        align-self: center;
+    }
+
+    .rating:nth-child(3) {
+        align-self: flex-end;
+    }
+
+    /* ++++++++++++++ CARDS ++++++++++++++ */
+    .card-container {
+        column-gap: 2rem;
+        flex-direction: row;
+        height: 30rem;
+        margin: 0;
+        row-gap: 0;
+    }
+
+    .background-card:nth-child(1) {
+        align-self: flex-start;
+    }
+
+    .background-card:nth-child(2) {
+        align-self: center;
+    }
+
+    .background-card:nth-child(3) {
+        align-self: flex-end;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1080px) {
+    body {
+        font-size: 2.2rem;
+    }
+
+    /* ++++++++++++++ HEADER ++++++++++++++ */    
+    .header {
+        margin: 8rem 7.5rem 5rem;
+    }
+
+    h1 {
+        font-size: 4.8rem;
+        line-height: 5.2rem;
+    }
+
+    /* ++++++++++++++ RATING ++++++++++++++ */    
+    .rating {
+        column-gap: 2rem;
+        flex-direction: row;
+        justify-content: center;
+        padding: 1.5rem 0;
+        row-gap: 0;
+    }
+
+    /* ++++++++++++++ CARDS ++++++++++++++ */    
+    .card-container {
+        margin: 0 7.5rem 8rem;
+    }
+
+    .background-card {
+        padding: 7rem 6rem;
+    }
+
+    .personal-information {
+        align-items: center;
+    }
+    
+    .personal-information img {
+        width: 7rem;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /* ++++++++++++++ HEADER ++++++++++++++ */
+    
+    .header {
+        margin: 8rem 5.5rem 5rem;
+    }
+
+    /* ++++++++++++++ RATING ++++++++++++++ */    
+    .rating {
+        column-gap: 2rem;
+        flex-direction: row;
+        justify-content: center;
+        padding: 1.5rem 0;
+        row-gap: 0;
+    }
+
+    /* ++++++++++++++ CARDS ++++++++++++++ */    
+    .card-container {
+        margin: 0 5.5rem 8rem;
+    }
+
+    .background-card {
+        padding: 6rem 5rem;
+    }
+}
+
+@media only screen and (min-width: 540px) and (max-width: 767px) {
+    /* ++++++++++++++ HEADER ++++++++++++++ */    
+    .header {
+        margin: 8rem 4.5rem 5rem;
+    }
+
+    /* ++++++++++++++ CARDS ++++++++++++++ */    
+    .card-container {
+        margin: 0 4.5rem 8rem;
+    }
+
+    .background-card {
+        padding: 5rem 4rem;
+    }
+} 

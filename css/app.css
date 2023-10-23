@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap');
+
+:root {
+    --dark-grayish-magenta: #937b92;
+    --light-grayish-magenta: #f7f2f7;
+    --soft-pink: #ee68a4;
+    --very-dark-magenta: #502050;
+    --white: #ffffff;
+}
+
+/* ++++++++++++++ GLOBAL STYLES ++++++++++++++ */
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--white);
+    background-image: url(../img/bg-pattern-top-mobile.svg), url(../img/bg-pattern-bottom-mobile.svg);
+    background-position: top 0 left 0, bottom 0 right 0;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 1.8rem;
+    margin: 0;
+    min-height: 100vh;
+    padding: 0;
+}
+
+h1 {
+    color: var(--very-dark-magenta);
+    font-size: 3.8rem;
+    line-height: 3rem;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    max-width: 144rem;
+    margin: auto;
+}
+
+/* ++++++++++++++ HEADER ++++++++++++++ */
+.header {
+    margin: 8rem 1.5rem 5rem;
+}
+
+.text-header {
+    color: var(--dark-grayish-magenta);
+    font-weight: 500;
+    line-height: 2.3rem;
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+    text-align: center;
+}
+
+/* ++++++++++++++ RATING ++++++++++++++ */
+.rating-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
+.rating {
+    background-color: var(--light-grayish-magenta);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem 0;
+    row-gap: 1rem;
+}
+
+.stars {
+    column-gap: 1rem;
+    display: flex;
+}
+
+.rating-text {
+    color: var(--very-dark-magenta);
+    font-weight: 700;
+}
+
+/* ++++++++++++++ CARDS ++++++++++++++ */
+.card-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1.5rem 8rem;
+    row-gap: 3rem;
+}
+
+.background-card {
+    background-color: var(--very-dark-magenta);
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 2.5rem;
+    row-gap: 2rem;
+}
+
+.personal-information {
+    column-gap: 3rem;
+    display: flex;
+}
+
+.personal-information img {
+    border-radius: 50%;
+    width: 5rem;
+}
+
+.name {
+    color: var(--white);
+    font-weight: 700;
+    margin-bottom: .5rem;
+}
+
+.position {
+    color: var(--soft-pink);
+}
+
+.card-text {
+    color: var(--white);
+    font-weight: 500;
+    line-height: 2.2rem;
+}
+
+/* ++++++++++++++ FOOTER ++++++++++++++ */
+footer {
+    background-color: var(--soft-pink);
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.attribution {
+    color: var(--white);
+    line-height: 2.2rem;
+    padding: 0 2.4rem;
+}
+
+.attribution a {
+    color: var(--very-dark-magenta);
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    text-decoration: underline;
+}
