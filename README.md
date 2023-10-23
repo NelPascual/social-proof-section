@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/NelPascual/profile-card-component)
-- Live Site URL: [Add live site URL here](https://profile-card-component-nelpascual.netlify.app/)
+- Solution URL: [Add solution URL here](https://github.com/NelPascual/social-proof-section)
+- Live Site URL: [Add live site URL here](https://social-proof-section-nelpascual.netlify.app/)
 
 ## My process
 
